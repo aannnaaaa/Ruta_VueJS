@@ -30,7 +30,12 @@ const routes = [
   {
     path: '/createPost',
     name: 'createPost',
-    component: CreatePost },
+    component: CreatePost,
+  },
+  {
+    path: '/createPost/:id?',
+    component: CreatePost,
+  },
 ]
 
 const router = createRouter({
