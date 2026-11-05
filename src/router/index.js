@@ -4,7 +4,7 @@ import HomeView from '@/components/Home.vue'
 import PostsView from '@/components/Posts.vue'
 import TripsView from '@/components/Trips.vue'
 import ProfileView from '@/components/Profile.vue'
-import CreatePost from '@/components/CreatePost.vue'
+import CreatePost from '@/components/Createpost.vue'
 
 const routes = [
   {
