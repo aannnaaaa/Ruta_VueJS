@@ -36,7 +36,7 @@
               class="m-2 sm:w-auto"
               :class="{ 'p-invalid': authError }"
             />
-            <InputTexts
+            <InputText
               v-model="password"
               type="password"
               id="password"
